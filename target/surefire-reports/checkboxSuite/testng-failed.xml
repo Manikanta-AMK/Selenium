@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [checkboxSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="checkboxTest(failed)" verbose="0">
+    <classes>
+      <class name="checkboxes.handlecheckbox2">
+        <methods>
+          <include name="checkbox"/>
+        </methods>
+      </class> <!-- checkboxes.handlecheckbox2 -->
+      <class name="checkboxes.newcheckbox">
+        <methods>
+          <include name="checkbox"/>
+        </methods>
+      </class> <!-- checkboxes.newcheckbox -->
+      <class name="checkboxes.handleCheckboxes">
+        <methods>
+          <include name="checkboxes2"/>
+        </methods>
+      </class> <!-- checkboxes.handleCheckboxes -->
+    </classes>
+  </test> <!-- checkboxTest(failed) -->
+</suite> <!-- Failed suite [checkboxSuite] -->

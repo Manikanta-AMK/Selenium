@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="checkboxSuite">
+  <test thread-count="2" name="checkboxTest">
+    <classes>
+      <class name="checkboxes.handlecheckbox2"/>
+      <class name="checkboxes.handleCheckboxes"/>
+      <class name="checkboxes.newcheckbox"/>
+    </classes>
+  </test> <!-- checkboxTest -->
+</suite> <!-- checkboxSuite -->

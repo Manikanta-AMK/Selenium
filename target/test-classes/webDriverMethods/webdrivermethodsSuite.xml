@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="webdrivermethodsSuite">
+  <test thread-count="5" name="webdrivermethodsTest">
+	  <classes>
+		  <class name="webDriverMethods.browsercommands"/>
+		  <class name="webDriverMethods.conditionalMethods"/>
+		  <class name="webDriverMethods.getmethods"/>
+		  <class name="webDriverMethods.navigationmethod"/>
+	  </classes>
+  </test> <!-- webdrivermethodsTest -->
+</suite> <!-- webdrivermethodsSuite -->

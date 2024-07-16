@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="alertsSuite">
+	<test thread-count="3" name="alertsTest">
+		<classes>
+			<class name="Alerts.handlingAlertsWithExpectedCondition"/>
+			<class name="Alerts.javascriptalert"/>
+			<class name="Alerts.alerts"/>
+		</classes>
+	</test> <!-- alertsTest -->
+</suite> <!-- alertsSuite -->
